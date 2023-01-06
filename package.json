@@ -1,0 +1,44 @@
+{
+  "name": "svelete-ts-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint-check": "npx eslint src --ext .js,.ts,tsx,svelte",
+    "lint-fix": "npx eslint src --ext .js,.ts,tsx,svelte --fix",
+    "css-check": "npx stylelint \"src/**/*.{css,scss,svelte}\" ",
+    "css-fix": "npx stylelint \"src/**/*.{css,scss,svelte}\" --fix",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "engines": {
+    "node": ">=16.13.0",
+    "npm": ">=8.11.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "autoprefixer": "^10.4.13",
+    "esbuild": "^0.16.14",
+    "eslint": "^8.31.0",
+    "eslint-plugin-svelte": "^2.14.1",
+    "postcss": "^8.4.20",
+    "postcss-html": "^1.5.0",
+    "sass": "^1.57.1",
+    "stylelint": "^14.16.1",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended-scss": "^8.0.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^6.0.0",
+    "stylelint-scss": "^4.3.0",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.0",
+    "svelte-preprocess": "^5.0.0",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  }
+}
